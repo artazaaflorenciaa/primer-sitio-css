@@ -1,9 +1,20 @@
 h1{
-    color: #84482D;
-    text-align: center;
+    color: #84482D;/* Cambia el color*/
+    text-align: center;/* Centra el texto*/
 }
 p{
-    color: #1C1D1F;
-    font-size: 18px;
-    line-height: 1.5em;
+    color: #1C1D1F;/* Cambia el color*/
+    font-size: 18px;/* Cambia el tamaño de las letras*/
+    line-height: 1.5em;/*Cambia el espacio de linea */
+}
+img{
+    width: 150px; /* Fija el ancho */
+    height: auto;/*Ajusta la altura automaticamente*/
+    margin: 10px;/* Agrega espacio alrededor de la imagen */
+}
+div{
+    display: flex; /* Usa flexbox para alinear las imágenes */
+    justify-content: space-around; /* Espacio uniforme entre las imágenes */
+    border: 2px solid #BE6841; /* Agrega un borde alrededor del contenedor */
+    padding: 20px; /* Agrega espacio dentro del contenedor */
 }
